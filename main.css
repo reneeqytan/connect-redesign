@@ -1,0 +1,330 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow);
+
+
+html {
+    background-color:rgba(40, 40, 40, 1)
+}
+
+nav {
+    background-color: rgba(28, 28, 28, 1);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 500px;
+    position: fixed;
+}
+
+.search {
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: none;
+    border-radius: 50px;
+    text-align: left;
+    background-color: rgb(102, 102, 102);
+    font-style: italic;
+    color: white;
+    opacity: 80%;
+    text-align: start; line-height: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.search:hover {
+    opacity: 100%;
+    cursor:text
+}
+
+.nav-link {
+    border: none;
+    padding: 10px;
+    background-color: rgb(102, 102, 102);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    scale: 1.1;
+}
+
+a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+
+.fa-solid {
+    color: white;
+}
+
+.container-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 50%;
+    float: left;
+    flex-direction: column;
+    margin-right: 0px;
+}
+
+.left-box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110%;
+    width: 90%;
+    margin: 100px;
+    margin-bottom: 50px;
+    background-color: rgba(28, 28, 28, 1);
+    border-radius: 40px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+ }
+
+.left-box-1 .tag-search {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    height: fit-content;
+    border-radius: 40px;
+}
+
+.left-box-1 .tag-search .tag {
+    border: 2px rgba(102,102,102,1) solid;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    background: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.right-box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin: 100px;
+    background-color: rgba(28, 28, 28, 1);
+    border-radius: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.container-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 500px;
+    width: 50%;
+    float: left;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.add-tag {
+    border: 2px rgba(102,102,102,1) solid;
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    background: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.tag:hover, .add-tag:hover {
+    scale: 1.1;
+    color: random;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.info-tab {
+    color: white;
+    display: flex;
+    width: 93%;
+    height: 60%;
+    margin: 20px;
+    border-radius: 40px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(64, 64, 64);
+    justify-content: center;
+}
+
+.heading-it {
+    padding: 20px;
+    font-family: sans-serif;
+    opacity: 50%;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    margin-top: 30px;
+    width: 90%;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 100px;
+    text-decoration: line-through;
+    text-decoration-color: rgba(28,28,28,0);
+    text-decoration-thickness: 8px;
+    background-image: url(sad-aesthetic.gif);
+    -webkit-filter: blur(0.9px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.greeting {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Barlow';
+    font-weight: bold;
+}
+
+
+
+.embeds {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: fit-content;
+    justify-content: center;
+}
+
+.right-box-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin: 0px;
+    background-color: rgba(28, 28, 28, 1);
+    border-radius: 40px;
+}
+
+.heading-rb2 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Barlow';
+    color: white;
+    margin-top: 20px;
+}
+
+
+iframe {
+    transition: all ease-in-out 0.5s;
+}
+
+
+iframe:hover {
+    transform: scale(1.2);
+}
+
+* {
+    font-family: "Barlow";
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
